@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor/firmware/SM-A256N/os.checked.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A256N/os.checked.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/SM-A256N/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A256N/vts.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/abov/a96t396_a25x_main.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abov/a96t396_a25x_main.bin \
+    vendor/samsung/a25x/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/ft3519_a25x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ft3519_a25x.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_a25x.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/lmecpu_4HA.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_4HA.json \
