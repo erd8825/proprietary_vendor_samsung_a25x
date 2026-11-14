@@ -86,7 +86,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     lib_SoundBooster_ver1130 \
-    libc++_shared
+    libbauthserver \
+    libbauthtzcommon \
+    libc++_shared \
+    libegis_fp_normal_sensor_test \
+    libgf_in_system_lib \
+    libqfp_sensortest \
+    libsynaFpSensorTestNwd
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
@@ -127,9 +133,3 @@ PRODUCT_PACKAGES += \
     libsec2lsi_conversion \
     libswlme \
     libswdap
-
-PRODUCT_PACKAGES += \
-    libbauthserver \
-    libbauthtzcommon \
-    libegis_fp_normal_sensor_test \
-    libgf_in_system_lib
